@@ -451,7 +451,7 @@ function previouslyCompared(a, b) {
 /*!*****************************************************!*\
   !*** ./node_modules/apollo-boost/lib/bundle.esm.js ***!
   \*****************************************************/
-/*! exports provided: ApolloClient, ApolloError, FetchType, NetworkStatus, ObservableQuery, isApolloError, Observable, getOperationName, ApolloLink, concat, createOperation, empty, execute, from, fromError, fromPromise, makePromise, split, toPromise, HeuristicFragmentMatcher, InMemoryCache, IntrospectionFragmentMatcher, ObjectCache, StoreReader, StoreWriter, WriteError, assertIdValue, defaultDataIdFromObject, defaultNormalizedCacheFactory, enhanceErrorWithDocument, HttpLink, gql, default */
+/*! exports provided: HttpLink, gql, default, ApolloClient, ApolloError, FetchType, NetworkStatus, ObservableQuery, isApolloError, Observable, getOperationName, ApolloLink, concat, createOperation, empty, execute, from, fromError, fromPromise, makePromise, split, toPromise, HeuristicFragmentMatcher, InMemoryCache, IntrospectionFragmentMatcher, ObjectCache, StoreReader, StoreWriter, WriteError, assertIdValue, defaultDataIdFromObject, defaultNormalizedCacheFactory, enhanceErrorWithDocument */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -94968,7 +94968,7 @@ var apolloClient = new apollo_boost__WEBPACK_IMPORTED_MODULE_6__["default"]({
   request: function request(operation) {
     operation.setContext({
       headers: {
-        authorization: 'Bearer ' + "4da1951f54605336d8e46e79959c64ffe4e61c76"
+        authorization: 'Bearer ' + "96d411bf146572509337795a68a17cc262677c48"
       }
     });
   }
